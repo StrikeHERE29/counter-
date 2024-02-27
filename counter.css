@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(105, 156, 231, 0.5);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(6, 7, 7);
+    font-weight: bold;
+}
+
+span{
+    font-size: 180px;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    transition:.5s ease-in-out;
+   
+}
+
+.btn-container{
+    display: flex;
+    gap: 25px;
+}
